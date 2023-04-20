@@ -158,3 +158,40 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
  6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
  8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\dswd-procurement-site\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-04-20 03:23:40 --> Class "App\Controllers\PageNotFoundException" not found
+in APPPATH\Controllers\Pages.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('da')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\dswd-procurement-site\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-04-20 03:23:54 --> Invalid file: "pages/da.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/da.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/da', [], true)
+ 3 APPPATH\Controllers\Pages.php(23): view('pages/da')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('da')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\dswd-procurement-site\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-04-20 03:24:07 --> Invalid file: "pages/da.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/da.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/da', [], true)
+ 3 APPPATH\Controllers\Pages.php(23): view('pages/da')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('da')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\dswd-procurement-site\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-04-20 03:24:50 --> Invalid file: "pages/da.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/da.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/da', [], true)
+ 3 APPPATH\Controllers\Pages.php(23): view('pages/da')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('da')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\dswd-procurement-site\\codeigniter4\\public\\index.php')
