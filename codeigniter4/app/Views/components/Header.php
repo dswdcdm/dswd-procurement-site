@@ -1,8 +1,9 @@
 <!doctype html>
 <html>
 <head>
-    <title>CodeIgniter Tutorial</title>
+    <title><?= esc($title) ?></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-
-    <h1><?= esc($title) ?></h1>
+    <h1>navbar</h1>
